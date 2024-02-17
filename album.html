@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doraemon</title>
+    <style>
+      .photo-album {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .photo-frame {
+        width: 300px;
+        height: 250px;
+        border: 1px solid lightskyblue;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        transform: rotate(8, 1fr);
+        overflow: hidden;
+      }
+      .photo img {
+        max-height: 200px;
+      }
+      .photo-detail {
+        display: none;
+        position: absolute;
+        top: 0;
+      }
+      .photo-frame:hover .photo-detail {
+        display: block;
+        background-color: rgba(173, 216, 230, 0.5);
+        border-radius: 20px;
+      }
+      .photo-detail h3 {
+        background-color: black;
+        color: azure;
+        text-align: center;
+      }
+      .photo-frame:hover .photo {
+        transform: scale(1.2) rotate(360deg);
+        transition: transform 3s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Doraemon with his Friends</h1>
+    <section>
+      <div class="photo-album">
+        <div class="photo-frame">
+          <div class="photo"><img src="images/Cute-Doraemon.png" alt="" /></div>
+
+          <div class="photo-detail">
+            <h3>Doraemon</h3>
+            <p>
+              Doraemon is a fictional character in the Japanese manga and anime
+              series of the same name created by Fujiko F. Fujio. Doraemon is a
+              male robotic earless cat that travels back in time from the 22nd
+              century to aid a preteen boy named Nobita.Most of the times,
+              Nobita saves Doraemon in such situations. Although he has no
+              fingers in most media, he can hold things because of the suction
+              cups in his hands. His favorite food is Dorayaki. He has been
+              shown to date a normal female cat. He is the elder brother of
+              Dorami.
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo"><img src="images/NobitaNobi.png" alt="" /></div>
+
+          <div class="photo-detail">
+            <h3>Nobita</h3>
+            <p>
+              Nobita Nobi (野比 のび太, Nobi Nobita) is the co-protagonist of
+              the series. He wears glasses, a red or yellow polo shirt with a
+              white collar, and blue or black shorts and white socks and light
+              blue shoes. Although he's not good at sports, he's good at
+              shooting and has been reflected in the movies many time. He's also
+              good at string figure which sometime considered a girl's game. Son
+              of Tamako and Nobisuke Nobi.
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo"><img src="images/sizuka-copy.png" alt="" /></div>
+
+          <div class="photo-detail">
+            <h3>Sizuka</h3>
+            <p>
+              Shizuka Minamoto is a smart, kind and pretty girl. She is often
+              represented by the colour pink, and is seen wearing a pink shirt
+              and skirt. She is Nobita's best friend and love-interest. She does
+              not shun Nobita due to his failing grades, lazy disposition or
+              constant failures. In fact, she often tries to encourage him to do
+              better, though she usually fails to convince him.Shizuka's skirt
+              is also frequently seen getting flipped, either by Nobita misusing
+              Doraemon's gadgets, or by the wind.
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo"><img src="images/Gian.png" alt="" /></div>
+
+          <div class="photo-detail">
+            <h3>Gian</h3>
+            <p>
+              Gianis a strong and quick-tempered local bully. He frequently
+              steals other children's stuff under the pretext of "borrowing"
+              them, unless the toy is damaged. He is known for his awful singing
+              voice, though he considers himself a great singer. To prove this,
+              Gian sometimes "invites" others to attend his concerts, under the
+              threat of beatings.He frequently steals other children's stuff
+              (especially Nobita's and Suneo's) under the pretext of "borrowing"
+              them, unless the toy is damaged.
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo"><img src="images/Suneo.png" alt="" /></div>
+
+          <div class="photo-detail">
+            <h3>Sunio</h3>
+            <p>
+              Suneo Honekawa (骨川 スネ夫, Honekawa Suneo) is the fox-faced
+              (inherited from his mother) rich child who loves to flaunt his
+              material wealth before everyone, especially Nobita. A lot of the
+              stories start with Suneo showing off some new video game, toy or
+              pet which evokes Nobita's envy.Suneo is seen as a narcissist who
+              loves to stare at himself in the mirror while telling himself that
+              he is the most handsome guy in the world.
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo">
+            <img src="images/Dekisugi.png" alt="" />
+          </div>
+
+          <div class="photo-detail">
+            <h3>Dekisugi</h3>
+            <p>
+              Dekisugi is Nobita's classmate and friendly rival as he is a good
+              friend of Shizuka's. He is very intelligent and has a photographic
+              memory. Dekisugi is the perfect all-round student, consistently
+              getting 100s in class (A+'s in English Dub) and also being highly
+              capable in sports. His family is apparently wealthy, owning a
+              house that is so large that one can lose one's way. Shizuka
+              sometimes prefers the company of Dekisugi, who is more of her
+              intellectual equal.
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo"><img src="images/gians-sis.jpg" alt="" /></div>
+
+          <div class="photo-detail">
+            <h3>Jekko</h3>
+            <p>
+              Gian's younger sister, and also the only child Gian treats well in
+              the whole story, and Jaiko too loves her elder brother. In earlier
+              stories, she had bad tempers when something did not go as she
+              pleases, though she mellows down in later stories. Had Doraemon
+              not intervened, she would have been Nobita's wife in the future
+              which is why her first appearance is earlier than Suneo and Gian
+              in the series. However, Doraemon succeeds on his mission and
+              Nobita eventually marries Shizuka.
+            </p>
+          </div>
+        </div>
+        <div class="photo-frame">
+          <div class="photo"><img src="images/Dorami.jpg" alt="" /></div>
+
+          <div class="photo-detail">
+            <h3>Dorami</h3>
+            <p>
+              Dorami (ドラミ) is Doraemon's younger sister. Like Doraemon before
+              he developed a fear of mice, she is yellow-skinned, and to keep
+              Doraemon from thinking about his ears, her ears were replaced by a
+              large red bow, her the fox tail were replaced by a flower
+              tail.Different from her malfunctioning brother, she is the
+              smartest student during her school time, and has better skills in
+              using gadgets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
